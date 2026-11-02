@@ -1,0 +1,15 @@
+name = "nahan-gatewaya"
+main = "worker.js"
+compatibility_date = "2024-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 Database binding for persistent configuration, users, usage tracking, and relay health
+[[d1_databases]]
+binding = "IOT_DB"
+database_name = "nahan-db"
+database_id = "8d38ee7a-882c-4f9d-85c8-6a018f4bb60a"
+
+# Optional environment variables
+[vars]
+# DASHBOARD_URL = "https://raw.githubusercontent.com/itsyebekhe/nahan/main/dashboard.html"
+# SUBSCRIPTION_URL = "https://raw.githubusercontent.com/itsyebekhe/nahan/main/subscription.html"
